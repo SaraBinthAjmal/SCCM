@@ -14,6 +14,8 @@ Install-WindowsFeature -Name NET-WCF-Services45
 Install-WindowsFeature -Name NET-WCF-HTTP-Activation45
 Install-WindowsFeature -Name NET-WCF-TCP-PortSharing45
 
+'''
+
 # Install IIS Web Server Role
 Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 Install-WindowsFeature -Name Web-WebServer
