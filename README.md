@@ -36,7 +36,7 @@ Install-WindowsFeature -Name BITS
 Install-WindowsFeature -Name BITS-IIS-Ext
 '''
 
-Other files will be added accordingly
+Other files and scripts will be added accordingly
 
 echo "# SCCM" >> README.md
 git init
