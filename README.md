@@ -37,15 +37,3 @@ Install-WindowsFeature -Name BITS-IIS-Ext
 '''
 
 Other files and scripts will be added accordingly
-
-echo "# SCCM" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SaraBinthAjmal/SCCM.git
-git push -u origin main
-
-git remote add origin https://github.com/SaraBinthAjmal/SCCM.git
-git branch -M main
-git push -u origin main
